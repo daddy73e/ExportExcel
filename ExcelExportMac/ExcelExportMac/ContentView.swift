@@ -1,14 +1,23 @@
 //
 //  ContentView.swift
-//  ExcelExport
+//  ExcelExportMac
 //
 //  Created by Yeongeun Song on 2021/09/30.
 //
 
 import SwiftUI
 
+struct BlueButtonStyle: ButtonStyle {
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .foregroundColor(configuration.isPressed ? Color.blue : Color.white)
+            .background(configuration.isPressed ? Color.white : Color.blue)
+            .cornerRadius(6.0)
+            .padding()
+    }
+}
+
 struct ContentView: View {
-    
     @ObservedObject var viewModel = ContentViewModel()
     
     var body: some View {
@@ -16,7 +25,7 @@ struct ContentView: View {
             VStack {
                 Button("Translate") {
                     viewModel.translate()
-                }.font(.largeTitle).padding(.all)
+                }.font(.largeTitle).padding(.all).buttonStyle(BlueButtonStyle())
                 
                 Spacer()
                 VStack {

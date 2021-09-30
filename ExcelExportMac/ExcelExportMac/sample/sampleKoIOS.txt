@@ -1,0 +1,14 @@
+"ok"                                                 = "확인";
+"cancel"                                             = "취소";
+"edit"                                               = "편집";
+"search"                                             = "검색";
+"alert"                                              = "알림";
+"admin_user_join_type_01"                            = "일반";
+"admin_user_join_type_02"                            = "카카오";
+"admin_user_join_type_03"                            = "네이버";
+"admin_user_join_type_04"                            = "구글";
+"admin_user_join_type_05"                            = "페이스북";
+"admin_user_join_type_06"                            = "애플";
+"confirm"                                            = "확인";
+"title_picture"                                      = "작업 선택";
+"dialog_servercheck"                                 = "서버 점검중 입니다.";

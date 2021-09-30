@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftyXMLParser",
+        "repositoryURL": "https://github.com/yahoojapan/SwiftyXMLParser.git",
+        "state": {
+          "branch": "master",
+          "revision": "41900bb1882e704a25d4946f2dbad71b4bb02b8f",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

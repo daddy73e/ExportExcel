@@ -1,0 +1,11 @@
+ok    ||    확인    ||    Confirm
+cancel    ||    취소    ||    Cancel
+edit    ||    편집    ||    Edit
+search    ||    검색    ||    Search
+alert    ||    알림    ||    Alarms
+admin_user_join_type_01    ||    일반    ||    Normal
+admin_user_join_type_02    ||    카카오    ||    Kakao
+admin_user_join_type_03    ||    네이버    ||    Naver
+admin_user_join_type_04    ||    구글    ||    Google
+admin_user_join_type_05    ||    페이스북    ||    Facebook
+admin_user_join_type_06    ||    애플    ||    Apple
