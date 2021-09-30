@@ -159,6 +159,11 @@ class ContentViewModel: ObservableObject {
     public func copyClipboard() {
         UIPasteboard.general.string = exportText
     }
+    
+    public func celarExportText() {
+        exportText = ""
+        UIPasteboard.general.string = ""
+    }
 }
 
 extension ContentViewModel:iOSTransDelegate {
