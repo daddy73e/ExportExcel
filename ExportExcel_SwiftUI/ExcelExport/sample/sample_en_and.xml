@@ -1,0 +1,15 @@
+<resources>
+    <string name="ok">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="search">Search</string>
+    <string name="alert">Alarms</string>
+    <string name="admin_user_join_type_01">Normal</string>
+    <string name="admin_user_join_type_02">Kakao</string>
+    <string name="admin_user_join_type_03">Naver</string>
+    <string name="admin_user_join_type_04">Google</string>
+    <string name="admin_user_join_type_05">Facebook</string>
+    <string name="admin_user_join_type_06">Apple</string>
+    <string name="dialog_servercheck">Server is under safe check.</string>
+    <string name="app_conn_err">Connection unstable.</string>
+</resources>

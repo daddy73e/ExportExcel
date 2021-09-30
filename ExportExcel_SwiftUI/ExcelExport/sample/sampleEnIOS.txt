@@ -1,0 +1,13 @@
+"ok"                                                 = "OK";
+"cancel"                                             = "CANCEL";
+"edit"                                               = "EDIT";
+"search"                                             = "Search";
+"alert"                                              = "Alarms";
+"admin_user_join_type_01"                            = "Normal";
+"admin_user_join_type_02"                            = "Kakao";
+"admin_user_join_type_03"                            = "Naver";
+"admin_user_join_type_04"                            = "Google";
+"admin_user_join_type_05"                            = "Facebook";
+"admin_user_join_type_06"                            = "Apple";
+"dialog_servercheck"                                 = "Server is under safe check.";
+"app_conn_err"                                       = "Connection unstable.";
