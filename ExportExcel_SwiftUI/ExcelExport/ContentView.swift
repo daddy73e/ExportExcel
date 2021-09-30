@@ -20,7 +20,14 @@ struct ContentView: View {
                 
                 Spacer()
                 VStack {
-                    Text ("iOS").font(.largeTitle).padding(.all)
+                    HStack{
+                        Text ("iOS")
+                            .font(.body)
+                            .foregroundColor(Color.black)
+                            .padding()
+                            .font(.system(size: 15, weight: .bold, design: .default))
+                        Spacer()
+                    }.background(Color("bgcolor"))
                     Button("Auto") {
                         viewModel.auto(osType: .ios)
                     }.font(.title2).padding().disabled(!viewModel.isOnTranslate)
@@ -54,7 +61,14 @@ struct ContentView: View {
                     }
                 }
                 VStack {
-                    Text ("Adnroid").font(.largeTitle).padding(.all)
+                    HStack{
+                        Text ("ANDROID")
+                            .font(.body)
+                            .foregroundColor(Color.black)
+                            .padding()
+                            .font(.system(size: 15, weight: .bold, design: .default))
+                        Spacer()
+                    }.background(Color("bgcolor"))
                     Button("Auto") {
                         viewModel.auto(osType: .android)
                     }.font(.title2).padding().disabled(!viewModel.isOnTranslate)
@@ -91,7 +105,6 @@ struct ContentView: View {
                         viewModel.copyClipboard()
                     }
                     .font(.title2)
-                    .padding()
                     .foregroundColor(Color.blue)
                     HStack {
                         Spacer()
@@ -99,7 +112,6 @@ struct ContentView: View {
                             viewModel.celarExportText()
                         }
                         .font(.body)
-                        .padding()
                         .foregroundColor(Color.blue)
                     }
                     ScrollView {
