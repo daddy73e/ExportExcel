@@ -21,13 +21,12 @@ struct ContentView: View {
     @ObservedObject var viewModel = ContentViewModel()
     
     var body: some View {
-        ScrollView {
+        HStack {
             VStack {
                 Button("Translate") {
                     viewModel.translate()
                 }.font(.largeTitle).padding(.all).buttonStyle(BlueButtonStyle())
                 
-                Spacer()
                 VStack {
                     Text ("iOS").font(.largeTitle).padding(.all)
                     Button("Auto") {
@@ -51,16 +50,15 @@ struct ContentView: View {
                             viewModel.originCheck(langType: .eng, osType: .ios)
                         }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
                     }
-                    HStack {
-                        
+                    HStack(spacing: 20.0) {
                         Button("Excel(Ko)\niOS 내보내기") {
                             viewModel.exportExcel(osType: .ios, langType: .kor)
-                        }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
+                        }.font(.title3).disabled(!viewModel.isOnTranslate)
                         
                         Button("Excel(En)\niOS 내보내기") {
                             viewModel.exportExcel(osType: .ios, langType: .eng)
-                        }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
-                    }
+                        }.font(.title3).disabled(!viewModel.isOnTranslate)
+                    }.padding()
                 }
                 VStack {
                     Text ("Adnroid").font(.largeTitle).padding(.all)
@@ -83,7 +81,7 @@ struct ContentView: View {
                             viewModel.originCheck(langType: .eng, osType: .android)
                         }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
                     }
-                    HStack {
+                    HStack(spacing: 20.0) {
                         Button("Excel(Ko)\nAndroid 내보내기") {
                             viewModel.exportExcel(osType: .android, langType: .kor)
                         }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
@@ -93,35 +91,33 @@ struct ContentView: View {
                         }.font(.title3).padding().disabled(!viewModel.isOnTranslate)
                     }
                 }
-                
-                Spacer()
-                VStack{
-                    Button("클립보드 복사") {
-                        viewModel.copyClipboard()
+            }.padding(.vertical, 10)
+            VStack{
+                Button("클립보드 복사") {
+                    viewModel.copyClipboard()
+                }
+                .font(.title2)
+                .padding()
+                .foregroundColor(Color.blue)
+                HStack {
+                    Spacer()
+                    Button("초기화") {
+                        viewModel.celarExportText()
                     }
-                    .font(.title2)
+                    .font(.body)
                     .padding()
                     .foregroundColor(Color.blue)
-                    HStack {
-                        Spacer()
-                        Button("초기화") {
-                            viewModel.celarExportText()
-                        }
-                        .font(.body)
-                        .padding()
-                        .foregroundColor(Color.blue)
-                    }
-                    ScrollView {
-                        VStack {
-                            Text(viewModel.exportText)
-                                .lineLimit(nil)
-                                .foregroundColor(Color.black)
-                                .font(.system(size: 8))
-                                .padding()
-                        }.frame(maxWidth: .infinity)
-                    }
-                }.background(Color.white).padding()
-            }.padding(.vertical, 10)
+                }
+                ScrollView {
+                    VStack {
+                        Text(viewModel.exportText)
+                            .lineLimit(nil)
+                            .foregroundColor(Color.black)
+                            .font(.system(size: 8))
+                            .padding()
+                    }.frame(maxWidth: .infinity)
+                }
+            }.background(Color.white).padding()
         }
     }
 }

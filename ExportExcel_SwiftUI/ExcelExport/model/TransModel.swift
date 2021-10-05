@@ -122,10 +122,10 @@ class TransModel: NSObject {
             for each in array {
                 switch type {
                 case .kor:
-                    printString = "\"\(each.strId)\" = \"\(each.kor)\"\n"
+                    printString = "\"\(each.strId)\" = \"\(each.kor)\";\n"
                     updatePrint(strUpdate: printString)
                 case .eng:
-                    printString = "\"\(each.strId)\" = \"\(each.eng)\"\n"
+                    printString = "\"\(each.strId)\" = \"\(each.eng)\";\n"
                     updatePrint(strUpdate: printString)
                 case .none:
                     return

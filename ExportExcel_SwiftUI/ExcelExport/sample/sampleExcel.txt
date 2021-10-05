@@ -1,11 +1,303 @@
+app_conn_err    ||    접속이 원활하지 않습니다    ||    Connection unstable.
+app_init_conn_err    ||    서버연결이 원활하지 않습니다. 다음에 다시 시도하세요    ||    Server connection unstable. Please try again later.
+confirm    ||    확인    ||    Confirm
+title_picture    ||    작업 선택    ||    Choose task
+dialog_disconnect    ||    인터넷 연결이 끊겼습니다. 다음에 다시 시도해 주세요    ||    Internet connection disabled. Please try again later.
+dialog_unknown    ||    알수 없는 오류로 종료 합니다. 다음에 다시 시도해 주세요    ||    Closing due to unknown error. Please try again later.
+dialog_servercheck    ||    서버 점검중 입니다.    ||    Server is under safe check.
+dialog_update    ||    최신버전으로 업데이트 해주세요    ||    Please update to the newest version.
+exit_toast    ||    한번 더 누르면 종료됩니다    ||    One more click will end the procedure.
+broadcast_system_check_description    ||    현재 시스템 점검 중으로\n앱을 사용할 수 없습니다.\n확인 버튼 클릭 시 앱이 종료됩니다.    ||    The app is currently unavailable\ndue to system inspection.\nClick “confirm” to close the app.
+broadcast_system_app_update_description    ||    최신 버전으로 앱 업데이트가 필요합니다.\n확인 버튼 클릭 시 스토어로 연결됩니다.    ||    You must update to the newest version.\nClick “confirm” to connect to the store.
 ok    ||    확인    ||    Confirm
 cancel    ||    취소    ||    Cancel
 edit    ||    편집    ||    Edit
 search    ||    검색    ||    Search
 alert    ||    알림    ||    Alarms
+broadcast_messageInput_placeholder    ||    채팅에 참여해보세요.    ||    Join a chat!
+broadcast_chat_server_error    ||    채팅연결 상태가 원활하지 않습니다.    ||    The chatting connection is unstable.
+broadcast_close_message    ||    [%s]\n방송이 종료 되었습니다    ||    [%S]\nbroadcast has been closed.
+broadcast_type_live    ||    LIVE    ||    LIVE
+broadcast_type_vod    ||    VOD    ||    VOD
+broadcast_user_enter_aos    ||    %s님이 입장하였습니다.    ||    %s has entered.
+broadcast_user_leave_aos    ||    %s님이 퇴장하였습니다.    ||    %s has left.
+broadcast_product_liveprice_info    ||    라이브 할인가는 라이브 방송후 1시간까지만 적용됩니다.    ||    The LIVE discount is applied only for an hour after the LIVE broadcast.
+broadcast_coupon_title_aos    ||    적용 가능 쿠폰 %d    ||    Applicable coupon(s) %d
+broadcast_coupon_usage_info    ||    현재 라이브 방송 상품에만 사용 할 수 있는 쿠폰입니다.    ||    This coupon is only for current LIVE broadcast merchandise.
+broadcast_coupon_usage_guide    ||    쿠폰 사용 안내    ||    Guide to using coupons
+broadcast_coupon_price_aos    ||    %s원    ||    %s won
+broadcast_comment_title    ||    댓글    ||    Comments
+broadcast_comment_title_num_aos    ||    댓글 %d    ||    Comment(s) %d
+broadcast_comment_input_hint    ||    댓글을 입력해주세요    ||    Enter a comment.
+broadcast_comment_dialog_reply    ||    답글쓰기    ||    Write a reply
+broadcast_comment_dialog_declare    ||    신고하기    ||    Report
+broadcast_dialog_live_declare    ||    신고    ||    Report
+broadcast_dialog_live_block    ||    해당 채널의 모든 방송 차단    ||    Block all broadcasts from the channel
+broadcast_dialog_live_declare_type1    ||    음란물    ||    Obscene material
+broadcast_dialog_live_declare_type2    ||    욕설    ||    Vulgar language
+broadcast_dialog_live_declare_type3    ||    폭력    ||    Violence
+broadcast_dialog_live_declare_type4    ||    부적절한 상품    ||    Inappropriate merchandise
+broadcast_dialog_live_declare_type5    ||    저작권    ||    Copyright
+broadcast_dialog_live_declare_type6    ||    기타 부적절한 발언    ||    Other inappropriate language
+broadcast_dialog_user_declare_type1    ||    욕설 또는 증오심 표현    ||    Vulgar or hateful expression
+broadcast_dialog_user_declare_type2    ||    음란 메시지    ||    Obscene message
+broadcast_dialog_user_declare_type3    ||    희롱 또는 괴롭힘    ||    Mocking or harassing
+broadcast_dialog_user_declare_type4    ||    스팸 메시지    ||    Spam messages
+broadcast_dialog_user_declare_type5    ||    기타 부적절한 발언    ||    Other inappropriate language
+broadcast_notice_title    ||    공지사항    ||    Announcements
+broadcast_live_product_tabtitle    ||    판매상품    ||    Merchandise for sale
+broadcast_live_basket_tabtitle    ||    장바구니    ||    Shopping cart
+broadcast_live_connect_error    ||    서버연결이 원활하지 않습니다.\n방송에 재입장 해주세요.    ||    Server connection is unstable.\nPlease re-enter the broadcast.
+broadcast_live_exit_message    ||    이 방송을 종료하시겠습니까?    ||    Would you like to close this broadcast?
+broadcast_live_unmute_message    ||    소리를 켜려면 누르세요    ||    Click to turn on the sound.
+broadcast_live_stop_noti_popup    ||    라이브방송이 종료되었습니다.    ||    The LIVE broadcast has been closed.
+broadcast_live_wait_state_popup    ||    라이브방송 준비 중입니다.    ||    The LIVE broadcast is under preparation.
+broadcast_live_pause_state_popup    ||    라이브방송이 판매자에 의해 일시중지 되었습니다.\n잠시만 기다려 주세요.    ||    The LIVE broadcast has been paused by the vendor.\nPlease hold on.
+broadcast_live_stop_state_popup    ||    라이브가 종료 되었습니다.    ||    LIVE has been closed.
+broadcast_streaming_data_error    ||    데이터 연결 상태가 원활하지 않습니다.    ||    Data connection is unstable.
+broadcast_live_out_of_stock_popup    ||    품절된 상품입니다.    ||    The merchandise is sold out.
+broadcast_live_not_purchase_popup    ||    구매가 불가능한 상품입니다.    ||    The merchandise is unavailable for purchase.
+broadcast_live_fail_socket    ||    채팅연결 상태가 원활하지 않습니다.    ||    The chatting connection is unstable.
+broadcast_live_fail_userinfo    ||    채팅연결 상태가 원활하지 않습니다.    ||    The chatting connection is unstable.
+broadcast_live_disconnect_socket    ||    채팅연결 상태가 원활하지 않습니다.    ||    The chatting connection is unstable.
+broadcast_live_duplicate_user    ||    다른 기기에서 로그인되어 연결 종료합니다.    ||    Closing due to connection from another device.
+common_network_response_error    ||    데이터 연결 상태가 원활하지 않습니다.    ||    Data connection is unstable.
+common_network_disconnect_error    ||    데이터 연결 상태가 원활하지 않습니다.    ||    Data connection is unstable.
+broadcast_live_input_msg_wait    ||    데이터 연결 상태가 원활하지 않습니다.    ||    Data connection is unstable.
+broadcast_mute_noti_title    ||    현재 볼륨은 0 입니다.    ||    The current volume is 0.
+broadcast_chat_force_exit_message    ||    입력한 메시지가 규정에 위배되어 강제 퇴장되었습니다.    ||    You have been forced to because your message has violated the regulations.
+broadcast_question_nickname_format_aos    ||    %s 질문에 운영자가 드리는 답변    ||    The administrator’s answer to question %s
+broadcast_chat_qna_detail    ||    질문 답변 보기    ||    View answers for questions
+broadcast_chat_qna_arrival    ||    질문 답변 도착    ||    Arrival of Answer(s) for questions
+broadcast_chat_qna_check    ||    답변보기    ||    View answers
+broadcast_chat_block_message    ||    채팅방 입장이 금지된 회원입니다.    ||    This member is banned from entering chat rooms.
+broadcast_notice_more_text    ||    더보기    ||    See more
+broadcast_live_message_muteuser_alert    ||    채팅 규정 미준수로 운영자에 의해 채팅이 금지된 상태입니다.    ||    You are banned from chatting by the administrator due to violating chatting regulations.
+broadcast_live_message_unmuteuser_alert    ||    운영자에 의해 채팅 금지가 해제 되었습니다. 채팅 규정 준수 바랍니다.    ||    The ban on chatting has been removed by the administrator. Please make sure to abide by the chatting regulations.
+broadcast_live_product_item_count_aos    ||    라이브 소개 판매 상품 %d    ||    LIVE introduction merchandise for sale %d
+broadcast_live_product_con_sub_aos    ||    %s원이상 무료    ||    Free for %s won and above
+broadcast_live_product_live_price    ||    라이브 혜택가    ||    LIVE discount price
+broadcast_live_product_item_closing    ||    품절임박    ||    Nearly sold out
+broadcast_list_product_out_of_stock    ||    품절    ||    Sold out
+broadcast_list_product_delivery_type1    ||    무료배송    ||    Free shipping
+broadcast_list_product_delivery_type2    ||    착불    ||    Pay on delivery
+broadcast_list_product_delivery_type3    ||    선불    ||    Prepay
+broadcast_store_free_shipping    ||    무료배송    ||    Free shipping
+broadcast_store_special_price    ||    라이브특가    ||    LIVE special price
+broadcast_store_gifts    ||    사은품    ||    Free gift(s)
+broadcast_store_won    ||    원    ||    won
+broadcast_store_special_price_end    ||    라이브 특가 종료    ||    LIVE special price closed
+broadcast_store_special_price_desc    ||    \"라이브특가\"는 방송중에만 특별하게 할인되는 가격입니다.    ||    \"LIVE special price\” merchandise are sold under special prices that are discounted only during broadcasts.
+broadcast_chat_send    ||    전송    ||    Send
+broadcast_streaming_exit_question    ||    현재 방송을 종료하시겠습니까?    ||    Would you like to close the current broadcast?
+broadcast_streaming_cancel_question    ||    방송송출은 되지 않았습니다. 이전페이지로 이동하시겠습니까?    ||    A broadcast has not been made. Would you like to move to the previous page?
+broadcast_streaming_tab_live    ||    라이브    ||    LIVE
+broadcast_streaming_tab_rehearsal    ||    리허설    ||    Rehearsal
+broadcast_streaming_tab_recording    ||    사전녹화    ||    Pre-record
+broadcast_streaming_timer    ||    라이브 방송중    ||    LIVE broadcast on
+broadcast_streaming_option_title    ||    설정하기    ||    Settings
+broadcast_streaming_option_mic    ||    마이크사용    ||    Use mic
+broadcast_streaming_option_camera_front_reverse    ||    전면 카메라 좌우 반전    ||    Switch left and right for front camera
+broadcast_streaming_option_camera_quality    ||    영상품질 설정    ||    Video quality settings
+broadcast_streaming_option_bitrate_quality    ||    비트레이트 설정    ||    Bit rate settings
+broadcast_streaming_option_beauty_filter    ||    뷰티필터사용    ||    Use Beauty Filter
+broadcast_streaming_option_effect_filter    ||    이펙트 사용    ||    Use effects
+broadcast_streaming_weak_network    ||    인터넷 신호가 미약하여 방송 송출이 원활하지 않을 수 있습니다.    ||    The Internet might be too weak for your broadcast.
+broadcast_stremaing_not_starttime    ||    방송 편성 시간 기준 1분 전부터 방송시작 가능합니다.    ||    You can start your broadcast one minute before the given time from the broadcast timetable.
+broadcast_stremaing_exit_endtime    ||    방송종료 시간이 되어 방송을 강제 종료 합니다.    ||    The broadcast has to be closed as the broadcast time is over.
+broadcast_streaming_not_product_click    ||    방송 송출에 영향을 줄 수 있어 상품 상세페이지 이동은 제한됩니다.    ||    Moving to the merchandise detail page will be limited because it can affect the broadcast.
+broadcast_front_cam_1080p_not_supported_popup    ||    전면 카메라가 1080p 화질을 지원하지 않습니다.    ||    The front camera doesn’t support 1080p.
+broadcast_live_remaining_time    ||    잔여타임    ||    Remaining time
+broadcast_live_current_time_error    ||    휴대폰의 현재시간과 서버시간이 일치하지 않아, 메뉴를 종료 합니다.    ||    Menu will be closed due to the difference between the time of the phone and the server.
+broadcast_stream_duplicated_message    ||    이미 방송진행 중으로 송출이 불가합니다.\n현재 라이브 방송이 협의되지 않은 송출일 경우 고객센터로 연락바랍니다.    ||    Cannot be transmitted because a broadcast is already being run.\nIf the current broadcast is not being transmitted under your agreement, please contact customer services.
+broadcast_streaming_vod_list    ||    지난 방송 내역보기    ||    View last broadcast items
+broadcast_stream_tutorial_cam_setting_title    ||    전/후면 카메라 설정    ||    Front/back camera settings
+broadcast_stream_tutorial_cam_setting_subtitle    ||    방송시 전/후면 카메라 선택기능\n방송 중에도 교체 가능합니다.    ||    Choice between front and back cameras for broadcast\nYou can also switch between the cameras during your broadcast.
+broadcast_stream_tutorial_page2_main_title    ||    간편한 방송 설정    ||    Easy broadcast settings
+broadcast_stream_tutorial_page2_main_subtitle    ||    모바일 방송 송출 시 필요한 기능들은\n퀵버튼으로 설정 할 수 있습니다.    ||    You can use the Quick Button\nto set the features for your mobile broadcast.
+broadcast_stream_tutorial_detail_setting_title    ||    방송 상세 설정    ||    Detailed broadcast settings
+broadcast_stream_tutorial_detail_setting_subtitle    ||    마이크, 전면 카메라 좌/우반전 \n영상의 품질을 설정할 수 있습니다.    ||    Switch left and right for mic/front camera\nYou can change the quality settings of your video.
+broadcast_stream_tutorial_page3_main_title    ||    방송제어 및 공유    ||    Broadcast control and sharing
+broadcast_stream_tutorial_page3_main_subtitle    ||    모바일 방송 송출로 장소 상관없이\n방송 공유로 다 같이 함께할 수 있습니다.    ||    By sharing your broadcast,\nyou can be with anyone in the world through your mobile broadcast.
+broadcast_stream_tutorial_publish_control_title    ||    영상 송출/중지    ||    Video transmission/close
+broadcast_stream_tutorial_publish_control_subtitle    ||    방송의 시작과 종료시 사용해요.    ||    Use this feature to start and close your broadcast.
+broadcast_stream_tutorial_share_setting_title    ||    방송 공유    ||    Share broadcast
+broadcast_stream_share_setting_subtitle    ||    해당 방송을 공유할 수 있어요.    ||    You can share the broadcast.
+broadcast_stream_tutorial_page4_main_title    ||    방송 화면 밝기 조절    ||    Adjust broadcast light settings
+broadcast_stream_tutorial_page4_main_subtitle    ||    반사판 없이 조금 더 밝게 \n밝은 야외에서는 어둡게 조절    ||    Light up your video without having to use a reflection panel.\nYou can darken the video if you’re under a bright light outdoors.
+broadcast_stream_tutorial_page4_setting_title    ||    밝기 컨트롤러    ||    Light controller
+broadcast_stream_tutorial_page4_setting_subtitle    ||    방송 화면 밝기를 조절할 수 있어요.    ||    You can adjust the screen lighting of your broadcast.
+broadcast_stream_tutorial_next_button_title    ||    다음 보기    ||    See next
+broadcast_stream_tutorial_page5_main_title    ||    줌인아웃 컨트롤러    ||    Zoom-in, zoom-out controller
+broadcast_stream_tutorial_page5_main_subtitle    ||    기존 카메라처럼 익숙하게 축소/확대\n원본 크기 바로설정(퀵버튼) 가능    ||    Just like other cameras, you can easily zoom in, zoom out,\nand go back to the original size with the Quick Button.
+broadcast_stream_tutorial_seller_message_title    ||    요청 메세지 전달    ||    Deliver requested message
+broadcast_stream_tutorial_seller_message_subtitle    ||    운영자가 방송 중 전달사항 표기\n진행자만 볼 수 있어요    ||    The administrator’s instructions for broadcast\nonly the host can view the message
+broadcast_stream_tutorial_seller_message_example    ||    판매자님! 방송상품 포커스 및 색상체크 테스트 해주세요.    ||    Dear vendor! Please check the colors and the focus for your broadcast merchandise.
+broadcast_stream_tutorial_page1_main_title    ||    관리자와 소통    ||    Communicate with the administrator
+broadcast_stream_tutorial_page1_main_subtitle    ||    라이브방송 중 판매자에게 메세지 전달\n운영자와 커뮤니케이션이 쉬워요    ||    Sending a message to the vendor during a LIVE broadcast\nmakes your communication with the administrator easier.
+broadcast_stream_tutorial_start_button_title    ||    지금 시작    ||    Start now
+broadcast_stream_tutorial_close_button_title    ||    더 이상 보지 않기    ||    Don’t show anymore
+broadcast_stream_tutorial_mc_message    ||    슈퍼스타님께 문의하신 사이즈는 250/255/260 크기 입니다.    ||    The size you requested to the Superstar is 250/255/260.
+web_file_download_status_start    ||    파일 다운로드를 시작합니다.    ||    Starting file download.
+web_file_download_status_error    ||    파일 다운로드를 실패하였습니다.    ||    File download failed.
+web_file_download_status_complete    ||    파일 다운로드를 완료하였습니다.    ||    File download is complete.
+server_response_nodata    ||    서버연결이 원활하지 않습니다.\n앱을 재실행 시켜 주세요.    ||    Server connection is unstable.\nPlease restart the app.
+admin_login_not_input_id    ||    아이디를 입력해주세요.    ||    Please enter the ID.
+admin_login_not_input_pwd    ||    비밀번호를 입력해주세요.    ||    Please enter the password.
+admin_login_failed_id    ||    존재하지 않는 아이디 입니다.    ||    The ID does not exist.
+admin_login_failed_pwd    ||    비밀번호가 다릅니다.    ||    The password does not match.
+admin_login_failed_unknown    ||    로그인에 실패하였습니다.    ||    Log-in failed.
+admin_silence_user_reg_message    ||    해당 시청자를 벙어리 하시겠습니까?    ||    Would you like to mute the viewer?
+admin_silence_user_unreg_message    ||    해당 시청자를 벙어리 해제 하시겠습니까?    ||    Would you like to cancel the viewer’s mute state?
+admin_silence_group_reg_message    ||    선택한 시청자들을 벙어리 하시겠습니까?    ||    Would you like to mute the selected viewers?
+admin_silence_group_unreg_message    ||    선택한 시청자들을 벙어리 해제 하시겠습니까?    ||    Would you like to cancel the viewers’ muted states?
+admin_ban_user_message    ||    해당 시청자를 강퇴하시겠습니까?    ||    Would you like to kick the viewer out?
+admin_ban_group_message    ||    선택한 시청자들을 강퇴하시겠습니까?    ||    Would you like to kick the selected viewers?
+admin_perpetualban_user_message    ||    해당 시청자를 영구퇴장 시키시겠습니까?    ||    Would you like to permanently kick the viewer?
+admin_perpetualban_group_message    ||    선택한 시청자들을 영구퇴장 시키시겠습니까?    ||    Would you like to permanently kick the selected viewers?
+admin_detail_user_title_id    ||    아이디    ||    ID
+admin_detail_user_title_join    ||    가입형태    ||    Registration type
+admin_detail_user_type_join_0    ||    일반    ||    Normal
+admin_detail_user_type_join_1    ||    카카오    ||    Kakao
+admin_detail_user_type_join_2    ||    네이버    ||    Naver
+admin_detail_user_type_join_3    ||    구글    ||    Google
+admin_detail_user_type_join_4    ||    페이스북    ||    Facebook
+admin_detail_user_type_join_5    ||    애플    ||    Apple
+admin_detail_user_title_create    ||    가입일자    ||    Registration date
+admin_user_list_title    ||    유저 정보    ||    User info
+admin_user_real_count_aos    ||    동시접속 %d    ||    Simultaneous connection %d
+admin_user_total_count_aos    ||    누적접속 %d    ||    Total number of connections %d
+admin_user_serach_hint    ||    회원 닉네임으로 검색    ||    Search under member’s nickname
+admin_user_list_profile_tab    ||    프로필    ||    Profile
+admin_user_list_order_tab    ||    주문    ||    Order
+admin_user_list_question_tab    ||    문의    ||    Request(s)
+admin_user_list_rank_tab    ||    랭크    ||    Ranking
+admin_user_list_radio_rank    ||    랭킹순    ||    Sort by rankings
+admin_user_list_radio_recent    ||    입장순    ||    Sort by entrances
+admin_manager_user_detail_title    ||    상세 회원정보    ||    Detailed member info
+admin_manager_user_detail_label_id    ||    아이디    ||    ID
+admin_manager_user_detail_label_join    ||    가입형태    ||    Registration type
+admin_manager_user_detail_label_joinDate    ||    가입일자    ||    Registration date
+admin_manager_user_detail_button_silence    ||    벙어리    ||    Mute
+admin_manager_user_detail_button_ban    ||    강제퇴장    ||    kick
+admin_manager_user_detail_button_perpeturalban    ||    영구퇴장    ||    kick permanently
+admin_manager_user_detail_button_exit    ||    닫기    ||    Close
+admin_manager_user_not_list_msg    ||    방송에 참여한 회원이 없습니다.    ||    No member is participating in the broadcast.
+admin_manager_user_not_list_search_msg    ||    검색된 회원이 없습니다.    ||    No member has been searched.
+admin_chat_input_type_0    ||    일반    ||    Normal
+admin_chat_input_type_1    ||    공지    ||    Announcements
+admin_chat_input_type_2    ||    홍보    ||    Promotion
+admin_chat_input_type_3    ||    진행자    ||    Host
+admin_qna_message_title    ||    실시간 질문 응답    ||    Real-time Q&A
+admin_qna_message_search_hint    ||    검색할 메시지를 입력하여 주시기 바랍니다.    ||    Please enter the message you would like to search.
+admin_qna_answer_input_hint    ||    답변을 입력해주세요    ||    Please enter the answer.
+admin_qna_messase_input_title    ||    답변 입력    ||    Enter answer
+admin_qna_message_question_label    ||    질문 내역    ||    Question list
+admin_qna_message_question_id    ||    닉네임    ||    Nickname
+admin_qna_message_answer_label    ||    답변하기    ||    Answer.
+admin_qna_message_answer_hint    ||    답변을 적어주세요    ||    Please write the answer
+admin_manager_tab_title_1    ||    회원관리    ||    Manage members
+admin_manager_tab_title_3    ||    상품관리    ||    Manage merchandise
+admin_manager_tab_title_4    ||    실시간구매현황    ||    Real-time purchase status
+admin_chat_input_hint_normal    ||    일반모드 메시지 입력    ||    Enter message for normal mode
+admin_chat_input_hint_promotion    ||    홍보모드 메시지 입력    ||    Enter message advertisement mode
+admin_chat_input_hint_notice    ||    공지모드 메시지 입력    ||    Enter message announcement mode
+admin_chat_input_hint_mc    ||    진행자모드 메시지 입력    ||    Enter message host mode
+admin_manager_user_all_select    ||    전체선택    ||    Select all
+admin_manager_user_search_hint    ||    회원 닉네임으로 검색    ||    Search under member’s nickname
+admin_manager_user_button_silence_reg    ||    벙어리 설정    ||    Mute settings
+admin_manager_user_button_silence_unreg    ||    벙어리 해제    ||    Cancel muted state
+admin_manager_user_button_ban    ||    강제 퇴장    ||    kick
+admin_manager_user_button_perpeturalban    ||    영구 퇴장    ||    kick permanently
+admin_manager_user_info_format_aos    ||    주문 : %s · 문의 : %s    ||    Order : %s · Request : %s
+admin_manager_user_rank_format_aos    ||     %s위    ||     Ranking: %s
+admin_manager_user_dialog_format_multi_aos    ||    [%s 외%d]    ||    [%d excluding %s]
+admin_manager_user_dialog_type_silence_reg_msg    ||    벙어리를 설정 하시겠습니까?    ||    Would you like to mute the user?
+admin_manager_user_dialog_type_silence_unreg_msg    ||    벙어리를 해제 하시겠습니까?    ||    Would you like to cancel the user’s muted state?
+admin_manager_user_dialog_type_ban_msg    ||    강제퇴장 설정 하시겠습니까?    ||    Would you like to kick the user out?
+admin_manager_user_dialog_type_perpeturalban_msg    ||    영구퇴장 설정 하시겠습니까?    ||    Would you like to permanently kick the user out?
+admin_favorite_message_guide_info    ||    기본템플릿은 테두리가 진합니다.    ||    The default template has thick outlines.
+admin_favorite_message_edit_button    ||    편집    ||    Edit
+admin_favorite_message_normal_title    ||    자주쓰는 메시지    ||    Common message
+admin_favorite_message_edit_title    ||    자주쓰는 메시지 편집    ||    Edit common message(s)
+admin_favorite_message_delete_title    ||    자주쓰는 메시지 삭제    ||    Delete common message(s)
+admin_favorite_message_edit_guide_info    ||    등록된 문구를 눌러 내용을 수정할 수 있습니다.    ||    You can click on the registered sentence to edit its content.
+admin_favorite_message_add_button    ||    메시지 추가하기    ||    Add message
+admin_favorite_message_init_button    ||    초기화    ||    Reset
+admin_favorite_message_edit_del_button    ||    삭제    ||    Delete
+admin_favorite_message_input_hint    ||    내용을 입력해 주세요.    ||    Enter details.
+admin_favorite_message_popup_insert_title    ||    자주 쓰는 메시지 추가    ||    Add common message
+admin_favorite_message_popup_update_title    ||    자주 쓰는 메시지 수정    ||    Adjust common message(s)
+admin_favorite_message_init_message    ||    초기화 하시겠습니까?\n초기화된 메시지는 복구할 수 없습니다.    ||    Would you like to reset?\nYou will not be able to recover the messages after resetting.
+admin_favorite_message_all_check    ||    전체선택    ||    Select all
+admin_favorite_message_delete_count_format_aos    ||    %d 삭제    ||    Delete %d
+admin_qna_answer_label_wait    ||    답변대기    ||    Waiting for answer
+admin_qna_answer_label_complete    ||    답변완료    ||    Answer complete
+admin_qna_answer_register    ||    등록    ||    Register
+admin_qna_answer_favorite    ||    자주쓰는 메시지    ||    Common messages
+admin_products_search_hint    ||    상품명을 입력해주세요    ||    Please enter the name of the merchandise
+admin_products_list_introduce_label    ||    현재 소개 상품    ||    Currently guided merchandise
+admin_products_list_all_label    ||    전체 상품    ||    All merchandise
+admin_products_list_sales_label    ||    판매    ||    Sale
+admin_products_list_stock_label    ||    재고    ||    Stock
+admin_products_list_stock_infinite    ||    무제한    ||    Unlimited
+admin_products_dropdown_menu_label1    ||    현재 소개 상품 설정    ||    Current merchandise guide settings
+admin_products_dropdown_menu_label2    ||    현재 소개 상품 제거    ||    Remove current merchandise guide
+admin_products_dropdown_menu_label3    ||    채팅방 노출    ||    Chat room exposure
+admin_products_dropdown_menu_label4    ||    품절 통지    ||    Sold-out message delivery
+admin_products_dropdown_menu_label5    ||    상품 상세 보기    ||    See merchandise details
+admin_products_list_product_sold_format_aos    ||    %s 품절    ||    %s sold out
+admin_products_detail_dialog_title    ||    상품 상세 보기    ||    See merchandise details
+admin_products_detail_dialog_base_label    ||    상품 기본 정보    ||    Basic merchandise info
+admin_products_detail_dialog_base_label_name    ||    상품명    ||    Merchandise name
+admin_products_detail_dialog_base_label_desc    ||    상세설명    ||    Details
+admin_products_detail_dialog_base_label_prdtCode    ||    상품코드    ||    Merchandise code
+admin_products_detail_dialog_base_label_seller    ||    판매자    ||    Vendor
+admin_products_detail_dialog_base_label_brand    ||    브랜드    ||    Brand
+admin_products_detail_dialog_base_label_marketprice    ||    시중가    ||    Market price
+admin_products_detail_dialog_base_label_price    ||    판매가    ||    Selling price
+admin_products_detail_dialog_base_label_discountrate    ||    할인율    ||    Discount rate
+admin_products_detail_dialog_base_label_deliveryprice    ||    배송비    ||    Shipping fee
+admin_recent_purchase_qty_format_aos    ||    수량 : %d    ||    No. of items : %d
+admin_recent_purchase_amount_format_aos    ||    가격 : %s    ||    Price : %s
+admin_broadcast_exit_popup_message    ||    이전 페이지로 이동하시겠습니까?    ||    Would you like to move to the previous page?
+admin_broadcast_stream_start_popup_message    ||    라이브방송을 관리자에서 시작하시겠습니까?\n판매자가 위즈라이브앱에서 준비된 상태에서 시작이 가능합니다.    ||    Would you like to start your LIVE broadcast on administrator mode?\nYou can start when the vendor is ready on the Sellove Live app.
+admin_broadcast_stream_end_popup_message    ||    현재 라이브방송을 종료하시겠습니까?    ||    Would you like to close the current LIVE broadcast?
+admin_qna_answer_input_label    ||    답변하기    ||    Answer
+admin_qna_answer_dialog_title    ||    답변등록    ||    Register answer
+admin_top_layout_label_init    ||    방송대기    ||    Broadcast standby
+admin_top_layout_label_streaming    ||    방송중    ||    Broadcast on air
+admin_top_layout_label_stream_end    ||    방송종료    ||    Broadcast closed
+admin_top_layout_label_streaming_pause    ||    일시정지    ||    Pause
+admin_products_search_no_list_msg    ||    검색된 상품이 없습니다.    ||    No merchandise has been searched.
+admin_recent_purchase_prdt_names_formt_aos    ||    %s 외 %s    ||    %s excluding %s
+admin_manager_qna_not_list_msg    ||    질문 내역이 없습니다.    ||    There is no question history.
+admin_manager_recent_purchase_not_list_msg    ||    구매 내역이 없습니다.    ||    There is no purchase history.
+admin_manager_user_info_not_checked    ||    회원을 선택하여 주시기 바랍니다.    ||    Please select the user.
+admin_broadcast_streaming_cancel    ||    방송이 취소 되었습니다.    ||    The broadcast has been canceled.
+admin_broadcast_streaming_ready_msg    ||    잠시 후 방송이 시작 됩니다.    ||    The broadcast will soon start.
+admin_qna_already_message    ||    해당 질문은 답변이 완료 되었습니다.    ||    The question has been answered.
 admin_user_join_type_01    ||    일반    ||    Normal
 admin_user_join_type_02    ||    카카오    ||    Kakao
 admin_user_join_type_03    ||    네이버    ||    Naver
 admin_user_join_type_04    ||    구글    ||    Google
 admin_user_join_type_05    ||    페이스북    ||    Facebook
 admin_user_join_type_06    ||    애플    ||    Apple
+permission_request_toast    ||    권한 승인후 사용 가능합니다.    ||    Available after authorization.
+permission_popup_message    ||    앱의 기능을 사용하기 위해서는 권한이 필요합니다.    ||    You must be authorized to use the app’s feature.
+permission_popup_deny_message    ||    [설정] > [권한] 에서 권한을 허용할 수 있습니다.    ||    You can allow the authorization at [Settings] > [Authorization].
+web_file_download_description    ||    파일 다운로드    ||    File download
+web_file_download_permission    ||    다운로드를 위해 권한이 필요합니다.    ||    You must be authorized to download the file.
+admin_products_copy_toast    ||    클립보드에 복사 되었습니다.    ||    Copied to clipboard.
+input_text_not_emoji_toast    ||    이모지는 입력 할 수 없습니다.    ||    You cannot enter emojis.
+web_connect_retry    ||    재시도    ||    Retry
+admin_favorite_message_contain_emoji    ||    이모티콘은 입력할 수 없습니다.    ||    You cannot enter emojis.
+admin_often_used_msg_placeholder    ||    내용을 입력해주세요.    ||    Please enter the details.
+admin_often_used_msg_title    ||    자주 쓰는 메시지 추가    ||    Add common message
+admin_qna_answer_exist_answer    ||    이미 답변이 등록된 질문입니다.    ||    The question has already been answered.
+admin_qna_answer_no_data    ||    입력된 내용이 없습니다.    ||    No content has been entered.
+broadcast_stream_tutorial_adminmenu_main_title    ||    방송 관리    ||    Manage broadcast
+broadcast_stream_tutorial_buyhere_main_subtitle    ||    상품 구매 페이지 알림 버튼    ||    Alarm button on merchandise purchase page
+broadcast_stream_tutorial_buyhere_main_title    ||    구매여기    ||    Open purchase
+broadcast_stream_tutorial_chatmenu_main_title    ||    채팅    ||    Chatting
+shopping_contacts_info_error    ||    번호의 형식이 올바르지 않아 입력되지 않았습니다.    ||    Entry failed due to incorrect number format.
